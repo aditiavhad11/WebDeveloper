@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>HTML SIGN UP</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"></div>
+        <ul class="nav-links">
+            <li class="active">Home</li>
+            <li>Web Designs</li>
+            <li>Mobile Designs</li>
+            <li>Illustrations</li>
+        </ul>
+        </div>
+        <div class="nav-right">
+            <input type="text" placeholder="🔍 Search" class="input">
+            <div class="selector">
+                <select class="lang">
+                    <option>English(Untited State)</option>
+                </select>
+            </div>
+            <button class="login">Log In</button>
+            <button class="signup">Sign Up</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="image"></div>
+        <div class="right-side">
+            <h2>Sign up</h2>
+            <p class="subtext">Sign up for free to access to in any of our products</p>
+
+            <form>
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter Email Address" id="email1">
+
+                <div class="pwd">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" id="pass">
+                    <p class="hint">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                </div>
+
+                <div class="chg">
+                    <input type="checkbox" id="ch">
+                    <label>Agree to our <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+
+                <div class="chg">
+                    <input type="checkbox" id="ch1">
+                    <label>Subscribe to our monthly newsletter</label>
+                </div>
+
+                <div class="captcha-box">
+                    <P>✅ I'm not a robot</P>
+                    <div class="img-captcha">
+                        <img src="google_recaptcha.png">
+                    </div>
+                    <!-- <span class="recaptcha">[reCAPTCHA]</span> -->
+                </div>
+
+                <button class="btn" type="submit" disabled>Sign up</button>
+
+                <p class="footer">Already have an account? <a href="#">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
